@@ -10,6 +10,8 @@ namespace SeleniumSpecfowAuto.Pages
         private readonly IWebDriver webDriver;
         //Test
         //Aganin Checking Testing
+        
+        //From Remote Machine or Reposiotory
         public HomeLoginPage(IWebDriver driver) => this.webDriver = driver;
 
         /// <summary>
